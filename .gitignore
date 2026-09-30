@@ -6,8 +6,15 @@
 *.dylib
 bin/
 dist/
+build/
+cmake-build-*/
+*.obj
+*.o
+*.a
+*.lib
 
 # Compiled Model Weights
+*.bin
 weights/*.bin
 
 # Test binaries & coverage
